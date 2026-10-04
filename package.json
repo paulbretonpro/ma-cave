@@ -1,0 +1,28 @@
+{
+  "name": "ma-cave-a-vin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "@nuxtjs/supabase": "^2.0.10",
+    "drizzle-orm": "^0.45.3",
+    "postgres": "^3.4.9",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "^4.11.3",
+    "@types/node": "^26.6.4",
+    "dotenv": "^18.0.5",
+    "drizzle-kit": "^0.31.11",
+    "nuxt": "^4.1.0",
+    "typescript": "^5.8.3",
+    "vue-tsc": "^3.3.12"
+  }
+}
