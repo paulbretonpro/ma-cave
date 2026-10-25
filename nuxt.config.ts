@@ -8,8 +8,6 @@ export default defineNuxtConfig({
     databaseUrl: '',
   },
   supabase: {
-    url: 'https://setup-required.supabase.co',
-    key: 'setup-required',
     redirectOptions: {
       login: '/login',
       callback: '/confirm',

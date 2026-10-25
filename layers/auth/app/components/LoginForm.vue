@@ -34,7 +34,7 @@ watch(user, (value) => {
           color="warning"
           variant="subtle"
           title="Configuration Supabase requise"
-          description="Renseignez NUXT_PUBLIC_SUPABASE_URL et NUXT_PUBLIC_SUPABASE_KEY dans .env, puis redémarrez l’application."
+          description="Renseignez les variables d’environnement puis redémarrez l’application."
         />
         <UAlert
           v-if="errorMessage"
